@@ -29,7 +29,6 @@ ENV DB_USER=admin
 ENV DB_PASSWORD=admin
 ENV DB_HOST=db
 ENV DB_PORT=3306
-
 COPY script.sh /app/script.sh
 RUN chmod +x /app/script.sh
 
